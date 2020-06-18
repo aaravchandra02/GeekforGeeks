@@ -18,7 +18,7 @@ class NOD:
             n //= 10
         return c
 
-    # O(digits)
+    # O(1)
     def total_digits_maths(self):
         return(math.floor(math.log10(self.num)+1))
 
