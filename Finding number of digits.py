@@ -1,5 +1,3 @@
-import sys
-
 
 class NOD:
     def __init__(self, n):
