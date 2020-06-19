@@ -28,8 +28,11 @@ class solution:
                 return False
         return True
 
-    """ O(m*n) - Sieve of Erastosthenes with starting point as the number**2.
+    """ 
+    O(m*n) - Sieve of Erastosthenes with starting point as the number**2.
     It is done based on the root(n) principle. It is futile running before n**2.
+    Basic idea is to remove all the multiple of every sunsequent element from the 
+    list to eventually get a list with all the prime numbers.
     """
 
     def check_if_prime_SoE(self, n):
